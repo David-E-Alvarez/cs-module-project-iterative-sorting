@@ -34,8 +34,6 @@ def bubble_sort(arr):
 
     return arr
 
-#print(bubble_sort([1,4,5,4,3,7,6,9,1,5,2,6,4,0]))
-
 '''
 STRETCH: implement the Counting Sort function below
 
