@@ -18,8 +18,23 @@ def selection_sort(arr):
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort(arr):
     # Your code here
-    
+    #1.) loop through array and ...
+    for i in arr:
+        for j in range(0, len(arr)-1):
+            if(arr[j] > arr[j + 1]):
+                ## a.) compare adjacent elements
+                ## b.)swap if not in order
+                temp = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp
+
+    #i watched a YT video that showed me how I would re-iterate after iterating through
+    #array once because I didn't know how to go back. In the video they use a nested loop which
+    #i wouldn't have thought of using #link: https://youtu.be/xli_FI7CuzA
+
     return arr
+
+#print(bubble_sort([1,4,5,4,3,7,6,9,1,5,2,6,4,0]))
 
 '''
 STRETCH: implement the Counting Sort function below
