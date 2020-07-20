@@ -1,4 +1,3 @@
-focus
 # Module Project - Iterative Sorting
 
 ## Algorithms
